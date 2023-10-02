@@ -1,0 +1,20 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #282c34;
+}
+
+@media (max-width: 800px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .cards a {
+        width: auto;
+    }
+}

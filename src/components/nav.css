@@ -1,0 +1,39 @@
+.navbar{
+    height: 10vh;
+}
+
+.custom-bg {
+    background-color: #282c34;
+    color: white;
+}
+
+.navbar-brand{
+    margin-left: 1vw;
+    font-size: x-large;
+}
+
+.custom-items {
+    padding-left: 62vw;
+}
+
+.custom-items li {
+    width: 7vw;
+}
+
+.custom-items li:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+@media (max-width: 800px){
+    .custom-items {
+        align-items: left;
+        padding: 0;
+    }
+    .custom-items li {
+        width: 90vw;
+    }
+    .custom-items a{
+        align-items: left;
+    }
+}

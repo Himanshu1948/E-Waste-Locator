@@ -1,0 +1,23 @@
+.card {
+    border-width: 1px;
+    border-color: darkgrey  ;
+    border-radius: 2%;
+    margin: 10vh auto;
+    width: 21rem;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 0.25s;
+}
+
+.card a {
+    display: block;
+    width: 10vw;
+    margin: auto;
+}
+
+.btn-primary{
+    background-color: #282c34 ;
+}
